@@ -6,7 +6,7 @@
   margin:0;
   padding:0;
   max-width:100%;
-  border:1px solid grey;
+  
 }
 
 html{
@@ -17,15 +17,20 @@ body{
   font-size: 1.6rem;
   font-family: 'Barlow Condensed', sans-serif;
   background-color: #597496;
+  color:#4E3441;
 }
 
 h1{
   font-family: 'Trade Winds', cursive;
   font-size: 5rem;
+  color:#945256;
 } 
 
 h2{
   font-family: 'Trade Winds', cursive;
+  color:#4E3441;
+  margin-bottom: 5%;
+  
 }
 
 header{
@@ -38,11 +43,6 @@ section{
   padding:1%;
 }
 
-footer{
-  padding:1%;
-  background-color: #4E3441;
-}
-
 a{
   text-decoration:none;
   padding:1% 3%;
@@ -50,7 +50,16 @@ a{
   background-color:#C2A4AD;
   color:#4E3441;
   margin-top: 1%;
-  rad
+  border: 1px solid #EED6D3;
+}
+
+a:hover{
+  background-color: #597496;
+  color: #C2A4AD;
+}
+
+a:active{
+  
 }
 
 p{
@@ -64,6 +73,8 @@ nav{
   margin-left: 1%;
 }
 
+/* info section */
+
 .info-container{
   display:flex;
   justify-content: space-evenly;
@@ -76,5 +87,52 @@ nav{
 .info{
   width:50%;
   padding:2%;
+  margin-top: 5%;
 }
 
+.info p{
+  margin-top: 10%;
+}
+
+/* projects section */
+
+.projects-section{
+  display:flex;
+  flex-direction: row;
+  align-content: space around;
+  flex-wrap: wrap;
+}
+
+
+.project-box{
+  width:25%;
+  text-align:center;
+  padding-bottom: 2%;
+}
+
+.project-box img{
+height: 450px;
+width: 450px;
+object-fit: cover;
+}
+
+.project-box p{
+  padding: 1%;
+}
+
+/* footer */
+
+footer{
+  padding:1%;
+  background-color: #4E3441;
+  display:flex;
+  flex-direction: column;
+  color:#C2A4AD;
+  text-align: center;
+  justify-content: center;
+}
+
+footer .btn{
+  width: 200px;
+  margin: 1% auto;
+}
