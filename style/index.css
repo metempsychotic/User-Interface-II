@@ -167,7 +167,7 @@ background-color:#4E3441;
 
 /* start media queries */
 
-/* begin styling for laptop width 1366×768 */
+/* begin styles for laptop width 1366×768 */
 @media(max-width: 1366px){
   .info{
     margin-top: 0%;
@@ -181,7 +181,7 @@ background-color:#4E3441;
   }
 }
 
-/* end styling for laptop and begin styles for 800px tablet width */
+/* end styles for laptop and begin styles for 800px tablet width */
 @media(max-width:800px){
   h1{
     text-align: center;
@@ -260,7 +260,7 @@ background-color:#4E3441;
   }
 }
 
-/* end standard mobile styling and begin styling for iPhone: 360×640 */
+/* end standard mobile styles and begin styles for iPhone: 360×640 */
 
 @media(max-width:360px){
   .info p{
